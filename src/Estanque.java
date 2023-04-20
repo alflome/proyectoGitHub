@@ -48,7 +48,7 @@ public class Estanque {
 			    System.out.println(" estanque suficiente " + ingre);
 		} 
 		 if (ingre>= num1 && ingre <num2)   {
-			 System.out.println("----------------------------------------");
+			 System.out.println("---------------------------------------*-");
 				System.out.println("DIAGNOSTICO DE GASOLINA");
 			    System.out.println(" estanque insuficiente " + ingre);
 		} 
