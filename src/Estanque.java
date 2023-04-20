@@ -20,21 +20,37 @@ public class Estanque {
 		int eva =0;
 		Scanner eg= new Scanner(System.in);
 		System.out.println("Digite medida actual de litros gasolina");
+	
 		int ingre = eg.nextInt();
-		 if (eva>num5 && eva < num6) {
-			    System.out.println(" estanque casi lleno " + eva);
+		if (ingre>=num6) {
+			System.out.println("----------------------------------------");
+			System.out.println("DIAGNOSTICO DE GASOLINA");
+		    System.out.println(" ESTANQUE LLENO " + ingre);
+	}
+		 if (ingre>=num5 && ingre < num6) {
+			 System.out.println("----------------------------------------");
+				System.out.println("DIAGNOSTICO DE GASOLINA");
+			    System.out.println(" estanque casi lleno " + ingre);
 		}
-		 if (eva> num4 && eva < num5)   {
-			    System.out.println(" estanque 3/4 de capacidad" + eva);
+		 if (ingre>= num4 && ingre < num5)   {
+			 System.out.println("----------------------------------------");
+				System.out.println("DIAGNOSTICO DE GASOLINA");
+			    System.out.println(" estanque 3/4 de capacidad " + ingre);
 		}
-		 if (eva> num3 && eva < num4)   {
-			    System.out.println(" con medio estanque" + eva);
+		 if (ingre>=num3 && ingre < num4)   {
+			 System.out.println("----------------------------------------");
+				System.out.println("DIAGNOSTICO DE GASOLINA");
+			    System.out.println(" con medio estanque " + ingre);
 		} 
-		 if (eva> num2 && eva <num3)   {
-			    System.out.println(" estanque suficiente" + eva);
+		 if (ingre>= num2 && ingre <num3)   {
+			 System.out.println("----------------------------------------");
+				System.out.println("DIAGNOSTICO DE GASOLINA");
+			    System.out.println(" estanque suficiente " + ingre);
 		} 
-		 if (eva> num1 && eva <num2)   {
-			    System.out.println(" estanque insuficiente" + eva);
+		 if (ingre>= num1 && ingre <num2)   {
+			 System.out.println("----------------------------------------");
+				System.out.println("DIAGNOSTICO DE GASOLINA");
+			    System.out.println(" estanque insuficiente " + ingre);
 		} 
 				
 }
